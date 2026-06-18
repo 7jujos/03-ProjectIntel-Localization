@@ -31,14 +31,72 @@
       </button>
     </div>
 
-    <div class="hero-card">
-      <img class="logo-hero" src="img/intel-header-logo.svg" alt="Intel Logo" />
-      <h1>Sustainability Through the Ages</h1>
-      <p>
-        Explore Intel's journey through time, discovering how our commitment
-        to innovation has shaped a more sustainable future for technology 
-        and our planet.
-      </p>
+    <!-- Hero carousel with 4 slides -->
+    <div id="heroCarousel" class="carousel slide hero-carousel" data-bs-ride="carousel" aria-label="Featured sustainability highlights">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#heroCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      </div>
+
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/1.jpg" class="d-block w-100" alt="Historic Intel founders working together" />
+          <div class="hero-card">
+            <img class="logo-hero" src="img/intel-header-logo.svg" alt="Intel Logo" />
+            <h1>Sustainability Through the Ages</h1>
+            <p>
+              Explore Intel's journey through time, discovering how our commitment
+              to innovation has shaped a more sustainable future for technology
+              and our planet.
+            </p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/2.jpg" class="d-block w-100" alt="Early microprocessor development" />
+          <div class="hero-card">
+            <img class="logo-hero" src="img/intel-header-logo.svg" alt="Intel Logo" />
+            <h1>Innovation Starts Small</h1>
+            <p>
+              From early chip breakthroughs to global scale, each milestone
+              helped build more efficient computing for a connected world.
+            </p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/3.jpg" class="d-block w-100" alt="Classic Intel processor technology" />
+          <div class="hero-card">
+            <img class="logo-hero" src="img/intel-header-logo.svg" alt="Intel Logo" />
+            <h1>Efficiency Meets Performance</h1>
+            <p>
+              Intel's processor evolution reflects a balance of stronger
+              performance and responsible energy usage across generations.
+            </p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <img src="img/4.jpg" class="d-block w-100" alt="Personal computer innovation" />
+          <div class="hero-card">
+            <img class="logo-hero" src="img/intel-header-logo.svg" alt="Intel Logo" />
+            <h1>Building a Greener Future</h1>
+            <p>
+              Today, Intel continues investing in renewable electricity,
+              lower emissions, and sustainable manufacturing worldwide.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev" aria-label="Previous slide">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next" aria-label="Next slide">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      </button>
     </div>
   </header>
 
